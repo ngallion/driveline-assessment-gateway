@@ -1,7 +1,7 @@
 zuul:
   host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 100000
   routes:
     ui:
       path: /**
