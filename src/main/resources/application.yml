@@ -8,5 +8,5 @@ zuul:
       url: https://driveline-assessment-ui.herokuapp.com/
     api:
       path: /report/**
-      url: https://driveline-assessment-api.herokuapp.com/report/
+      url: https://polar-thicket-23750.herokuapp.com/report/
 #      URLS
