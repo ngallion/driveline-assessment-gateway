@@ -1,0 +1,11 @@
+zuul:
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 60000
+  routes:
+    ui:
+      path: /**
+      url: https://driveline-assessment-ui.herokuapp.com/
+    api:
+      path: /report/**
+      url: https://driveline-assessment-api.herokuapp.com/report
